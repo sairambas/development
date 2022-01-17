@@ -5,3 +5,4 @@ for question in questions:
     while answer != 'just because':
         answer  = input('Why? :').lower().strip()
         index+=1
+ print("Oh okay papa")
