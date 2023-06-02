@@ -6,7 +6,7 @@ def nerdgraph_inventory(key):
   # GraphQL query to NerdGraph
   channel_create_query = """
   mutation {
-  alertsNotificationChannelCreate(accountId: 2748598, notificationChannel: {
+  alertsNotificationChannelCreate(accountId: ****, notificationChannel: {
     pagerDuty: {
       name: "PagerDuty notification channel name",
       apiKey: "u+Q7oVLXZbFzvQvw9CJw"
