@@ -7,3 +7,4 @@ resource "databricks_cluster" "mycluster" {
     autotermination_minutes = 120
     data_security_mode = "USER_ISOLATION"
 }
+
